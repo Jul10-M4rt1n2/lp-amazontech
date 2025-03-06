@@ -8,6 +8,7 @@ var {
 }
 
 /* Css footer */
+@import './navbar.css';
 @import './footer.css';
 
 /* Css participate */

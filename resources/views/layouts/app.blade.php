@@ -13,6 +13,7 @@
 </head>
 <body class="antialiased">
     <div id="app">
+        <x-navbar />
         <!-- Conteúdo da página -->
         @yield('content')
         <!-- Adicionando o Footer -->
