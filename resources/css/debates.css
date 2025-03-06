@@ -1,0 +1,148 @@
+.debates-content {
+    background-image: url("/img/Sessao_9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    padding: 2.375rem 6.25rem;
+    gap: 4.25rem;
+    flex-shrink: 0;
+}
+
+.title-debates {
+    color: #231f20;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text-debates {
+    color: #231f20;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cards-debates {
+    gap: 2.75rem;
+    flex-shrink: 0;
+    padding: 2.5rem 0rem;
+
+    background-image: url("/img/Vector4.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.card-item {
+    gap: 2rem;
+    flex-shrink: 0;
+    padding: 2rem 2.5rem;
+    width: 100%;
+    height: auto;
+    border-radius: 2.5rem;
+    border: 8px solid #231f20;
+}
+
+.title-card-debates {
+    color: #fff;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text-card-debates {
+    color: #fff;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.container-debates {
+    gap: 12.25rem;
+}
+
+@media (max-width: 1280px) {
+    .container-debates {
+        gap: 10.25rem;
+    }
+}
+
+@media (max-width: 1114px) {
+    .container-debates {
+        gap: 8.25rem;
+    }
+}
+
+@media (max-width: 428px) {
+    .debates-content {
+        background-image: url("/img/SOBRE-EVENTO-mobile.png");
+        padding: 2.375rem 1.25rem;
+    }
+
+    .title-debates {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .text-debates {
+        font-size: 24px;
+    }
+
+    .cards-debates {
+        padding: 2.5rem 0rem;
+    }
+
+    .card-item {
+        padding: 0.5rem 1.25rem;
+    }
+
+    .title-card-debates {
+        font-size: 24px;
+    }
+
+    .text-card-debates {
+        font-size: 18px;
+    }
+
+    .container-debates {
+        gap: 15.25rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .container-debates {
+        gap: 27.25rem;
+    }
+    
+    .title-debates {
+        font-size: 20px;
+    }
+
+    .text-debates {
+        font-size: 18px;
+    }
+
+    .title-card-debates {
+        font-size: 20px;
+    }
+}

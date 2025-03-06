@@ -11,6 +11,12 @@ var {
 @import './navbar.css';
 @import './footer.css';
 
+/* Css debates */
+@import './debates.css';
+
+/* Css realization */
+@import './realization.css';
+
 /* Css participate */
 @import './participate.css';
 

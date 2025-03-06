@@ -1,5 +1,5 @@
 .participate-content {
-    background-image: url("../../public/img/Sessão8.png");
+    background-image: url("/img/Sessão8.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -34,9 +34,9 @@
     line-height: 40px;
 }
 
-@media (max-width: 428) {
+@media (max-width: 428px) {
     .participate-content {
-        background-image: url("../../public/img/SOBRE-EVENTO.png");
+        background-image: url("/img/SOBRE-EVENTO.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -57,5 +57,16 @@
 
     .participate-content-image {
         height: 1080px;
+    }
+}
+
+@media (max-width: 414px) {
+    .title-participe {
+        font-size: 20px;
+    }
+
+    .text-participe {
+        font-size: 18px;
+        line-height: 35px;
     }
 }
