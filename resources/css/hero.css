@@ -1,0 +1,6 @@
+.bg-hero {
+  background-image: url("img-hero.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+}

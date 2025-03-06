@@ -7,8 +7,11 @@ var {
     --color-azure-27: #394050;
 }
 
-/* Css footer */
 @import './navbar.css';
+
+@import './hero.css';
+
+/* Css footer */
 @import './footer.css';
 
 /* Css debates */
