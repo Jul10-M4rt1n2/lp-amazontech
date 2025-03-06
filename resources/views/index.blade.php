@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <x-participate />
+<x-participate />
+<x-realization />
 @endsection
