@@ -1,0 +1,113 @@
+.realization-content {
+    background-color: #fafafa;
+}
+
+.content-realization {
+    padding: 2.5rem 0rem;
+    gap: 3.75rem;
+}
+
+.content-logos {
+    gap: 2rem;
+}
+
+.title-realization {
+    color: #565656;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.logos {
+    display: ruby;
+    align-items: center;
+    width: 299.999px;
+    height: auto;
+}
+
+.patrocinadores-realization {
+    gap: 2rem;
+}
+
+.text-realization {
+    color: #565656;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-realization {
+    color: #5090ff;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.btn-orange-realization {
+    border-radius: 46px;
+    border: 2px solid #e66c27;
+    background: linear-gradient(180deg, #e67a34 0%, #db6929 100%);
+    padding: 24px 12px;
+
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-orange-realization:hover {
+    border-radius: 46px;
+    border: 2px solid #e66c27;
+    background: linear-gradient(180deg, #ff6806 0%, #b25724 100%);
+    color: #fff;
+}
+
+@media (max-width: 428) {
+    .title-realization {
+        font-size: 28px;
+    }
+    .text-realization,
+    .link-realization {
+        font-size: 20px;
+    }
+    .btn-orange-realization {
+        padding: 24px 12px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 414) {
+    .title-realization {
+        font-size: 20px;
+    }
+    .text-realization,
+    .link-realization {
+        font-size: 18px;
+    }
+    .btn-orange-realization {
+        padding: 16px 8px;
+        font-size: 16px;
+    }
+}

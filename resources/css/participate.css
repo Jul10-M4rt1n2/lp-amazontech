@@ -59,3 +59,14 @@
         height: 1080px;
     }
 }
+
+@media (max-width: 414) {
+    .title-participe {
+        font-size: 20px;
+    }
+
+    .text-participe {
+        font-size: 18px;
+        line-height: 35px;
+    }
+}
