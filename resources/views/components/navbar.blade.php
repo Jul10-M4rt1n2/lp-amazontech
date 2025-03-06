@@ -1,10 +1,12 @@
-<nav class="custom-navbar">
-  <ul class="custom-navbar-list">
-    <li><a href="#evento">O Evento</a></li>
-    <li><a href="#metodologia">Metodologia</a></li>
-    <li><a href="#eixos-de-debate">Eixos de Debate</a></li>
-    <li><a href="#quem-pode-participar">Quem pode Participar</a></li>
-    <li><a href="#fotos">Fotos</a></li>
-    <li><a href="#noticias">Notícias</a></li>
+<header class="custom-navbar">
+  <a href="#"><img src="{{ asset('img/logo-amazontech-home.svg') }}" class="logo-home" alt="Logo-home"></a>
+  <ul class="nav-links">
+      <li><a href="#">O Evento</a></li>
+      <li><a href="#">Metodologia</a></li>
+      <li><a href="#">Eixos de Debate</a></li>
+      <li><a href="#">Quem pode Participar</a></li>
+      <li><a target="_blank" href="https://www.flickr.com/photos/sebraerr/albums/72177720323944909/">Fotos</a></li>
+      <li><a href="#">Notícias</a></li>
   </ul>
-</nav>
+  <a href="#" class="custom-btn">Quero levar minha marca!</a>
+</header>
