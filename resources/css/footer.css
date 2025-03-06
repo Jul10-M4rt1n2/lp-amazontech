@@ -61,7 +61,7 @@
     color: #394050;
 }
 
-@media (max-width: 428) {
+@media (max-width: 428px) {
     .footer-content {
         align-items: center !important;
         padding: 2.5rem 1.5rem !important;
