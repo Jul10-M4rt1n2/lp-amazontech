@@ -1,7 +1,6 @@
 <div class="bg-about-event">
   <div class="row mx-auto">
-    <div class="col-12">
-    <div class="content-event">
+  <div class="content-event">
       <p class="title-event">
         Sobre o evento
       </p>
@@ -15,10 +14,9 @@
       Ao longo de mais de duas décadas, o Amazontech consolidou-se como um espaço de articulação e inovação, promovendo soluções que aliam ciência, tecnologia e empreendedorismo para impulsionar um modelo sustentável de crescimento para a Amazônia.
       </p>
     </div>
-    </div>
   </div>
   <div class="row mx-auto">
-  <div class="content-methodology">
+    <div class="content-methodology">
       <p class="title-methodology">
         Metodologia
       </p>
