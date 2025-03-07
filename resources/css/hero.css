@@ -41,8 +41,20 @@
     background-image: url("/img/hero-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 67vh;
+    height: 68vh;
     width: 100%;
+  }
+  .hero-content {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    padding:  10rem 1rem 1rem 3rem;
+  }
+  
+  .hero-text-bg { 
+    -webkit-text-stroke-width: 1px;
+  }
+  .text-date {
+    font-size: 1.25rem;
   }
 
 }
