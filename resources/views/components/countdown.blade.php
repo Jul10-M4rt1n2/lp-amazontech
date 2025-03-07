@@ -1,4 +1,4 @@
-<div class="countdown-content">
+<div class="countdown-content overflow-hidden">
     <div class="container">
         <div class="countdown row flex-column justify-content-center align-items-center">
             <h1 class="countdown-title text-center"><strong>AMAZON</strong>TECH <strong>2025</strong> está chegando!

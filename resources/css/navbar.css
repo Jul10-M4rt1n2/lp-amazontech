@@ -74,11 +74,13 @@
 
 @media (max-width: 768px) {
   .custom-navbar {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       text-align: center;
   }
-
+.custom-btn {
+  display: none;
+}
   .nav-links {
       flex-direction: column;
       gap: 10px;
