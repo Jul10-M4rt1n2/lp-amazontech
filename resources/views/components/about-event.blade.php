@@ -1,7 +1,10 @@
 <div class="bg-about-event overflow-hidden">
-  <div class="row gap-2">
+  <div class="row">
+      <div class="col-lg-4 col-md-12">
+        
+      </div>
       <div class="col-lg-8 col-md-12">
-        <div class="content-event d-flex flex-column align-items-start">
+      <div class="content-event">
         <p class="title-event">
           Sobre o evento
         </p>
@@ -16,12 +19,10 @@
         </p>
         </div>
       </div>
-      <div class="col-lg-4 col-md-12">
-      </div>
     </div>
   <div class="row">
     <div class="col-lg-8 col-md-12">
-      <div class="content-methodology d-flex flex-column align-items-start">
+      <div class="content-methodology">
         <p class="title-methodology">
           Metodologia
         </p>

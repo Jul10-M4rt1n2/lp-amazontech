@@ -9,9 +9,9 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   line-height: normal;
-
-  padding: 150px 100px;
   gap: 4px;
+
+  padding: 9.375rem 13rem 1rem 18rem;
 }
 
 .title-event {
@@ -33,11 +33,11 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   line-height: normal;
-
-  padding: 150px 80px 150px 100px;
   flex-direction: column;
   align-items: flex-start;
   gap: 68px;
+
+  padding: 30rem 23rem 1rem 5rem;
 }
 .title-methodology {
   text-transform: uppercase;
