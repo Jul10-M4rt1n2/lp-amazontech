@@ -12,6 +12,8 @@ var {
 
 @import './hero.css';
 
+@import './about-event.css';
+
 /* Css footer */
 @import './footer.css';
 
