@@ -2,7 +2,7 @@
   background-image: url("/img/bg-about-event.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 226vh;
 }
 .content-event {
   color: #231F20;
@@ -10,14 +10,8 @@
   font-style: normal;
   line-height: normal;
 
-  width: 960px;
-  height: 1074px;
   padding: 150px 100px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 68px;
-  position: absolute;
-  left: 56rem;
+  gap: 4px;
 }
 
 .title-event {
@@ -40,8 +34,6 @@
   font-style: normal;
   line-height: normal;
 
-  width: 1000px;
-  height: 1074px;
   padding: 150px 80px 150px 100px;
   flex-direction: column;
   align-items: flex-start;
@@ -67,12 +59,6 @@
     height: 111vh;
   }
   .content-event {
-    width: 100%;
-    height: 100%;
-    padding: 1.5rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 68px;
-    display: flex;
+   
   }
 }
