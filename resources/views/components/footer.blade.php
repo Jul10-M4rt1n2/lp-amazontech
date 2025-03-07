@@ -24,10 +24,10 @@
         </div>
     </div>
     <div class="social d-flex justify-content-center justify-content-md-start align-items-center gap-2">
-        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://br.linkedin.com/company/sebraeroraima" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="http://instagram.com/sebrae.roraima" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="http://facebook.com/sebraeroraima" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="http://www.youtube.com/@sebrae.roraima" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://rr.agenciasebrae.com.br/" target="_blank"><i class="fab fa-twitter"></i></a>
     </div>
 </footer>

@@ -1,0 +1,118 @@
+.business-content {
+    background: #005d58;
+}
+
+.img-background-business {
+    background-image: url("/img/img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content-busuness-text {
+    padding: 2rem 3.5rem;
+    gap: 2rem;
+    width: 100%;
+    margin: auto;
+    /* border-radius: 2.5rem 0rem 0rem 2.5rem; */
+}
+
+.business-subtitle {
+    color: #fff;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.business-title {
+    color: #48ba82;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.business-text {
+    color: #fff;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-origin-business {
+    width: 75%;
+    padding: 1.5rem 0.75rem;
+
+    border-radius: 2.875rem;
+    border: 2px solid #e66c27;
+    background: linear-gradient(180deg, #e67a34 0%, #db6929 100%);
+
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-origin-business:hover {
+    border-radius: 46px;
+    border: 2px solid #e66c27;
+    background: linear-gradient(180deg, #ff6806 0%, #b25724 100%);
+    color: #fff;
+}
+
+@media (max-width: 884px) {
+    .img-background-business {
+        background-size: cover;
+        background-position: center;
+        height: 55vh;
+    }
+}
+
+@media (max-width: 428px) {
+    .business-content {
+        border-radius: 2.5rem 2.5rem 0rem 0rem;
+        margin-top: -30px;
+    }
+    .content-busuness-text {
+        padding: 2rem 1rem;
+    }
+    .business-title {
+        font-size: 48px;
+    }
+
+    .btn-origin-business {
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .business-subtitle {
+        font-size: 20px;
+    }
+    .business-title {
+        font-size: 24px;
+    }
+    .business-text {
+        font-size: 18px;
+    }
+    .btn-origin-business {
+        font-size: 18px;
+    }
+}

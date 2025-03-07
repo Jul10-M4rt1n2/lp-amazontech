@@ -17,6 +17,9 @@ var {
 /* Css footer */
 @import './footer.css';
 
+/* Css business */
+@import './business.css';
+
 /* Css debates */
 @import './debates.css';
 
