@@ -13,6 +13,7 @@
 </head>
 <body class="antialiased">
     <div id="app">
+        <x-countdown />
         <x-navbar />
         <!-- Conteúdo da página -->
         @yield('content')
