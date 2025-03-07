@@ -10,8 +10,9 @@
   padding: 15px 40px;
   background: white;
   background-size: contain;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 0 0 50px 50px;
+  position: absolute;
+  width: 100%;
 }
 
 .nav-links {

@@ -1,6 +1,51 @@
 .bg-hero {
-  background-image: url("img-hero.webp");
+  background-image: url("/img/img-hero.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: inherit;
+    height: 115vh;
+}
+.hero {
+  position: absolute;
+  top: 24rem;
+  left: 30rem;
+}
+.hero-content {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 3.966rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 3.875rem;
+  text-transform: uppercase;
+}
+.hero-text-bg {
+  /* a fonte inter quebra quando deixa o efeito vazado */
+  font-family: 'Poppins', sans-serif;
+  color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #FFF;
+}
+.text-date {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 34.955px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.text-date {
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .bg-hero {
+    background-image: url("/img/hero-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    height: 100%;
+    width: 100%;
+  }
 }
