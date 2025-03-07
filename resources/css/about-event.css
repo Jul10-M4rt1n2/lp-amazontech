@@ -1,0 +1,72 @@
+.bg-about-event {
+  background-image: url("/img/bg-about-event.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.content-event {
+  color: #231F20;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  line-height: normal;
+
+  width: 960px;
+  height: 1074px;
+  padding: 150px 100px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 68px;
+  position: relative;
+  left: 56rem;
+}
+
+.title-event {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.text-event {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.text-event span {
+  font-weight: 400;
+}
+
+.content-methodology {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  line-height: normal;
+
+  width: 1000px;
+  height: 1074px;
+  padding: 150px 80px 150px 100px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 68px;
+}
+.title-methodology {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.text-methodology {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+  .bg-about-event {
+    background-image: url("/img/.bg-about-event-mobile.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    height: 67vh;
+    width: 100%;
+  }
+  .content-event {
+
+  }
+}
