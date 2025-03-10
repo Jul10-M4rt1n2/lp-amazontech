@@ -28,7 +28,7 @@
 
 <script>
     // Defina a data e hora do evento (UTC)
-    const eventDate = new Date('March 30, 2025 14:30:00').getTime();
+    const eventDate = new Date('September 04, 2025 14:30:00').getTime();
 
     function updateCountdown() {
         const now = new Date().getTime();
