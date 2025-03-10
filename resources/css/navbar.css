@@ -24,6 +24,9 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
 
 .custom-listbar {
   list-style: none;
