@@ -1,83 +1,83 @@
 .bg-about-event {
-  background-image: url("/img/bg-about-event.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 226vh;
+    background-image: url("../../img/bg-about-event.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 226vh;
 }
 .content-event {
-  color: #231F20;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  line-height: normal;
-  gap: 4px;
+    color: #231f20;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    line-height: normal;
+    gap: 4px;
 
-  padding: 9.375rem 13rem 1rem 18rem;
+    padding: 9.375rem 13rem 1rem 18rem;
 }
 
 .title-event {
-  text-transform: uppercase;
-  font-size: 3rem;
-  font-weight: 900;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 900;
 }
 
 .text-event {
-  font-size: 2rem;
-  font-weight: 400;
+    font-size: 2rem;
+    font-weight: 400;
 }
 .text-event span {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .content-methodology {
-  color: #FFF;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  line-height: normal;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 68px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    line-height: normal;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 68px;
 
-  padding: 30rem 23rem 1rem 5rem;
+    padding: 30rem 23rem 1rem 5rem;
 }
 .title-methodology {
-  text-transform: uppercase;
-  font-size: 3rem;
-  font-weight: 900;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 900;
 }
 .text-methodology {
-  font-size: 2rem;
-  font-weight: 400;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 @media (max-width: 1024px) {
-  .bg-about-event {
-    background-image: url("/img/bg-about-mobile.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: inherit;
-    width: 100%;
-    height: 188vh;
-  }
-  .content-event {
-    padding: 5rem 3rem 5rem 4rem;
-  }
+    .bg-about-event {
+        background-image: url("../../img/bg-about-mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: inherit;
+        width: 100%;
+        height: 188vh;
+    }
+    .content-event {
+        padding: 5rem 3rem 5rem 4rem;
+    }
 
-  .title-event {
-    font-size: 1.5rem;
-  }
-  
-  .text-event {
-    font-size: 1.25rem;
-  }
+    .title-event {
+        font-size: 1.5rem;
+    }
 
-  .content-methodology {
-    padding: 8rem 3rem 5rem 4rem;
-    gap: 0px;
-  }
-  .title-methodology {
-    font-size: 1.5rem;
-  }
-  .text-methodology {
-    font-size: 1.25rem;
-  }
+    .text-event {
+        font-size: 1.25rem;
+    }
+
+    .content-methodology {
+        padding: 8rem 3rem 5rem 4rem;
+        gap: 0px;
+    }
+    .title-methodology {
+        font-size: 1.5rem;
+    }
+    .text-methodology {
+        font-size: 1.25rem;
+    }
 }

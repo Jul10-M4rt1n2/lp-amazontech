@@ -3,7 +3,7 @@
 }
 
 .img-background-business {
-    background-image: url("/img/img.png");
+    background-image: url("../../img/img.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

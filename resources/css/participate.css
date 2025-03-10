@@ -1,5 +1,5 @@
 .participate-content {
-    background-image: url("/img/Sessão8.png");
+    background-image: url("../../img/Sessão8.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,12 +36,12 @@
 
 @media (max-width: 428px) {
     .participate-content {
-        background-image: url("/img/SOBRE-EVENTO.png");
+        background-image: url("../../img/SOBRE-EVENTO.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
-    .participate-content-text{
+    .participate-content-text {
         align-items: center !important;
         padding: 2.5rem 0rem;
     }

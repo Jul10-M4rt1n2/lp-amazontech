@@ -1,5 +1,5 @@
 .bg-hero {
-  background-image: url("/img/img-hero.webp");
+    background-image: url("../../img/img-hero.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: inherit;
@@ -7,54 +7,53 @@
 }
 
 .hero-content {
-  color: #FFF;
-  font-family: 'Inter', sans-serif;
-  font-size: 3.966rem;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 3.875rem;
-  text-transform: uppercase;
-  padding:  21rem 1rem 1rem;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 3.966rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 3.875rem;
+    text-transform: uppercase;
+    padding: 21rem 1rem 1rem;
 }
 .hero-text-bg {
-  /* a fonte inter quebra quando deixa o efeito vazado */
-  font-family: 'Poppins', sans-serif;
-  color: transparent;
-  -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: #FFF;
+    /* a fonte inter quebra quando deixa o efeito vazado */
+    font-family: "Poppins", sans-serif;
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #fff;
 }
 .text-date {
-  color: #FFF;
-  font-family: 'Inter', sans-serif;
-  font-size: 34.955px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  text-transform: uppercase;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 34.955px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
 }
 .text-date {
-  padding-left: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 @media (max-width: 1024px) {
-  .bg-hero {
-    background-image: url("/img/hero-mobile.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 68vh;
-    width: 100%;
-  }
-  .hero-content {
-    font-size: 1.5rem;
-    line-height: 1rem;
-    padding:  10rem 1rem 1rem 3rem;
-  }
-  
-  .hero-text-bg { 
-    -webkit-text-stroke-width: 1px;
-  }
-  .text-date {
-    font-size: 1.25rem;
-  }
+    .bg-hero {
+        background-image: url("../../img/hero-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 68vh;
+        width: 100%;
+    }
+    .hero-content {
+        font-size: 1.5rem;
+        line-height: 1rem;
+        padding: 10rem 1rem 1rem 3rem;
+    }
 
+    .hero-text-bg {
+        -webkit-text-stroke-width: 1px;
+    }
+    .text-date {
+        font-size: 1.25rem;
+    }
 }
