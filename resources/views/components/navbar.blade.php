@@ -1,6 +1,6 @@
 <header class="bg-nav">
-  <nav class="navbar navbar-expand-md mx-lg-3">
-  <a href="#" class="navbar-brand mx-auto">
+  <nav class="custom-nav navbar navbar-expand-md mx-lg-3">
+  <a href="#">
     <img src="{{ asset('img/logo-amazontech-home.svg') }}" class="logo-home" alt="Logo-home">
   </a>
   <button class="d-lg-none"  
@@ -12,8 +12,8 @@
     aria-label="Toggle navigation">
     <img src="{{ asset('img/menu-fill.svg')}}" class="icon-menu" alt="Icone menu">
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="custom-navbar navbar-nav ms-auto">
+  <div class="navbar-collapse" id="navbarNav">
+    <ul class="custom-list navbar-nav ms-auto">
         <li class="">
           <a class="link-custom" href="#">O Evento</a>
         </li>
