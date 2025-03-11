@@ -3,8 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: inherit;
-    padding: 2.375rem 6.25rem;
-    gap: 4.25rem;
+    padding: 2.5rem 6.25rem;
     flex-shrink: 0;
 }
 
@@ -46,7 +45,7 @@
     gap: 2rem;
     flex-shrink: 0;
     padding: 2rem 2.5rem;
-    width: 100%;
+    width:24rem;
     height: auto;
     border-radius: 2.5rem;
     border: 8px solid #231f20;
@@ -77,8 +76,8 @@
     text-transform: uppercase;
 }
 
-.container-debates {
-    gap: 12.25rem;
+.custom-black {
+    color: #231f20;
 }
 
 @media (max-width: 1280px) {

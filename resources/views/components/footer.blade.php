@@ -1,5 +1,4 @@
-<footer
-    class="footer-content overflow-hidden d-flex flex-column flex-md-row justify-content-between align-items-start">
+<footer class="footer-content overflow-hidden d-flex flex-column flex-md-row justify-content-between align-items-start">
     <div class="logo d-flex flex-column align-items-start gap-2 mb-3 mb-md-0">
         <img class="img-fluid" src="{{ asset('img/logo.svg') }}" alt="logo">
         <p class="text-copy">&copy; 2025 AmazonTech</p>
@@ -10,10 +9,13 @@
                 Navegação
             </h3>
             <ul class="list-items-footer d-flex flex-column justify-content-center align-items-start gap-2">
-                <li><a class="link-item-footer" href="#">Home</a></li>
-                <li><a class="link-item-footer" href="#">Produtos</a></li>
-                <li><a class="link-item-footer" href="#">Sobre</a></li>
-                <li><a class="link-item-footer" href="#">Contato</a></li>
+                <li><a class="link-item-footer" href="#about-event">O Evento</a></li>
+                <li><a class="link-item-footer" href="#methodology">Metodologia</a></li>
+                <li><a class="link-item-footer" href="#business">Eixos De Debate</a></li>
+                <li><a class="link-item-footer" href="#participate">Quem Pode Participar</a></li>
+                <li><a class="link-item-footer" href="https://www.flickr.com/photos/sebraerr/albums/72177720323944909/">Fotos</a></li>
+                <li><a class="link-item-footer" href="#">Notícias</a></li>
+                <li><a class="link-item-footer" href="#"><strong>Traga Sua Marca!</strong></a></li>
             </ul>
         </div>
         <div class="footer-group d-flex flex-column justify-content-center align-items-start gap-2">
@@ -24,10 +26,15 @@
         </div>
     </div>
     <div class="social d-flex justify-content-center justify-content-md-start align-items-center gap-2">
-        <a href="https://br.linkedin.com/company/sebraeroraima" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-        <a href="http://instagram.com/sebrae.roraima" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="http://facebook.com/sebraeroraima" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="http://www.youtube.com/@sebrae.roraima" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a href="https://rr.agenciasebrae.com.br/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://br.linkedin.com/company/sebraeroraima" target="_blank"><img class="img-fluid"
+                src="{{ asset('img/linkedin.svg') }}" alt=""></i></a>
+        <a href="http://instagram.com/sebrae.roraima" target="_blank"><img class="img-fluid"
+                src="{{ asset('img/insta.svg') }}" alt=""></i></a>
+        <a href="http://facebook.com/sebraeroraima" target="_blank"><img class="img-fluid"
+                src="{{ asset('img/Facebook.svg') }}" alt=""></i></a>
+        <a href="http://www.youtube.com/@sebrae.roraima" target="_blank"><img class="img-fluid"
+                src="{{ asset('img/Youtube.svg') }}" alt=""></i></a>
+        <a href="https://rr.agenciasebrae.com.br/" target="_blank"><img class="img-fluid"
+                src="{{ asset('img/globe.svg') }}" alt=""></i></a>
     </div>
 </footer>

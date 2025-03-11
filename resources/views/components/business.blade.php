@@ -1,4 +1,4 @@
-<section class="business-content overflow-hidden">
+<section class="business-content overflow-hidden" id="business">
     <div class="row">
         <div class="img-background-business col-lg-4 col-md-12 order-2 order-md-1">
         </div>
@@ -11,7 +11,7 @@
                     sustentabilidade e inovação.</p>
 
                 <a href="https://www.falandodenegociosbr.com.br/_files/ugd/c658da_9680d31f23c84e6ebe4b53ebdca5d929.pdf"
-                    target="_blank" class="btn btn-origin-business">Baixar agora</a>
+                    target="_blank" class="btn btn-origin-business">BAIXAR AGORA!</a>
             </div>
         </div>
     </div>

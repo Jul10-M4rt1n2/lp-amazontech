@@ -4,10 +4,10 @@
             <div class="content-logos d-inline-flex flex-column align-items-center">
                 <h2 class="title-realization">Realização</h2>
                 <div class="logos">
-                    <img src="{{ asset('img/image1.png') }}" alt="Logo Amazontech">
-                    <img src="{{ asset('img/logo-sebrae.svg') }}" alt="Logo UFAM">
+                    <img src="{{ asset('img/logos-2.svg') }}" alt="Logo Amazontech">
+                    {{-- <img src="{{ asset('img/logo-sebrae.svg') }}" alt="Logo UFAM">
                     <img src="{{ asset('img/image3.png') }}" alt="Logo UFAM">
-                    <img src="{{ asset('img/image2.png') }}" alt="Logo UFAM">
+                    <img src="{{ asset('img/image2.png') }}" alt="Logo UFAM"> --}}
                 </div>
                 <div class="patrocinadores-realization d-flex flex-column align-items-center text-center">
                     <h2 class="title-realization">Leve sua marca para o AmazonTech 2025!</h2>

@@ -15,17 +15,28 @@
 }
 
 .title-event {
-    text-transform: uppercase;
-    font-size: 3rem;
+    color: #231f20;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-style: normal;
     font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .text-event {
-    font-size: 2rem;
+    color: #231f20;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
     font-weight: 400;
-}
-.text-event span {
-    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 50px;
 }
 
 .content-methodology {
@@ -40,13 +51,28 @@
     padding: 30rem 23rem 1rem 5rem;
 }
 .title-methodology {
-    text-transform: uppercase;
-    font-size: 3rem;
+    color: #fff;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-style: normal;
     font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 68px;
 }
 .text-methodology {
-    font-size: 2rem;
+    color: #fff;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: normal;
     font-weight: 400;
+    line-height: normal;
+    margin: 0;
 }
 
 @media (max-width: 1024px) {

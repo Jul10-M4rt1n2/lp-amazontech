@@ -14,10 +14,10 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="custom-listbar navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link link-custom" href="#">O Evento</a></li>
-        <li class="nav-item"><a class="nav-link link-custom" href="#">Metodologia</a></li>
-        <li class="nav-item"><a class="nav-link link-custom" href="#">Eixos de Debate</a></li>
-        <li class="nav-item"><a class="nav-link link-custom" href="#">Quem pode Participar</a></li>
+        <li class="nav-item"><a class="nav-link link-custom" href="#about-event">O Evento</a></li>
+        <li class="nav-item"><a class="nav-link link-custom" href="#methodology">Metodologia</a></li>
+        <li class="nav-item"><a class="nav-link link-custom" href="#business">Eixos de Debate</a></li>
+        <li class="nav-item"><a class="nav-link link-custom" href="#participate">Quem pode Participar</a></li>
         <li class="nav-item"><a class="nav-link link-custom" target="_blank" href="https://www.flickr.com/photos/sebraerr/albums/72177720323944909/">Fotos</a></li>
         <li class="nav-item"><a class="nav-link link-custom" href="#">Notícias</a></li>
         <a href="#" class="text-center btn-mobile d-sm-none">Quero levar minha marca!</a>

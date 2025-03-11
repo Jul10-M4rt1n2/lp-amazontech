@@ -24,10 +24,14 @@
 }
 
 .logos {
-    display: ruby;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap;
+    gap: 1rem;
     width: 299.999px;
     height: auto;
+    text-align: center; */
 }
 
 .patrocinadores-realization {
@@ -63,7 +67,7 @@
 }
 
 .btn-orange-realization {
-    border-radius: 46px;
+    border-radius: 2.875rem;
     border: 2px solid #e66c27;
     background: linear-gradient(180deg, #e67a34 0%, #db6929 100%);
     padding: 24px 12px;
