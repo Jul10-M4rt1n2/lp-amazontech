@@ -11,7 +11,7 @@
     color: #231f20;
     leading-trim: both;
     text-edge: cap;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -23,7 +23,7 @@
     color: #231f20;
     leading-trim: both;
     text-edge: cap;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -55,7 +55,7 @@
     color: #fff;
     leading-trim: both;
     text-edge: cap;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 900;
@@ -68,7 +68,7 @@
     text-align: center;
     leading-trim: both;
     text-edge: cap;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -95,53 +95,53 @@
 @media (max-width: 428px) {
     .debates-content {
         background-image: url("../../img/SOBRE-EVENTO-mobile.png");
-        padding: 2.375rem 1.25rem;
+        padding: 2.375rem 2rem;
+        height: 100%;
+        background-position: 0 -16rem;
+    }
+
+    .container-debates {
+        gap: 2.25rem;
     }
 
     .title-debates {
-        font-size: 32px;
+        font-size: 1.5rem;
         text-align: center;
     }
 
     .text-debates {
-        font-size: 24px;
+        font-size: 1.25rem;
     }
 
     .cards-debates {
-        padding: 2.5rem 0rem;
+        padding: 4rem 0 0 0;
     }
 
     .card-item {
         padding: 0.5rem 1.25rem;
+        width: 18rem;
     }
 
     .title-card-debates {
-        font-size: 24px;
+        font-size: 1.25rem;
     }
 
     .text-card-debates {
-        font-size: 18px;
-    }
-
-    .container-debates {
-        gap: 15.25rem;
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 414px) {
-    .container-debates {
-        gap: 27.25rem;
-    }
-
+    
     .title-debates {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 
     .text-debates {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     .title-card-debates {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 }
