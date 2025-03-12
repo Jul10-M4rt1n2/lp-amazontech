@@ -89,7 +89,8 @@
 @media (max-width: 428px) {
     .business-content {
         border-radius: 2.5rem 2.5rem 0rem 0rem;
-        margin-top: -30px;
+        margin-top: -2rem;
+        position: relative;
     }
     .content-busuness-text {
         padding: 2rem 1rem;
