@@ -1,9 +1,6 @@
 <div class="bg-about-event overflow-hidden" id="about-event">
     <div class="row">
-        <div class="col-lg-4 col-md-12">
-
-        </div>
-        <div class="col-lg-8 col-md-12">
+        <div class="first-column col-12">
             <div class="content-event">
                 <p class="title-event">
                     Sobre o evento
@@ -27,7 +24,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-7 col-md-12">
+        <div class="second-column col-12">
             <div class="content-methodology" id="methodology">
                 <p class="title-methodology">
                     Metodologia

@@ -31,7 +31,7 @@
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 2rem;
 }
 
 @media (max-width: 428px) {
@@ -43,16 +43,18 @@
     }
     .participate-content-text {
         align-items: center !important;
-        padding: 2.5rem 0rem;
+        padding: 2.5rem 2rem;
+        gap: 2rem;
     }
 
     .title-participe {
-        font-size: 32px;
+        font-size: 1.5rem;
         text-align: center;
+        line-height: 2rem;
     }
 
     .text-participe {
-        font-size: 24px;
+        font-size: 1.25rem;
     }
 
     .participate-content-image {

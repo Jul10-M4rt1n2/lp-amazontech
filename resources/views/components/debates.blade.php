@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="col-lg-6 col-md-12 order-1 order-md-2">
-            <div class="debates-contents d-flex flex-column align-items-start">
+            <div class="debates-contents d-flex flex-column align-lg-items-start">
                 <h2 class="title-debates">EIXOS DE DEBATES</h2>
                 <p class="text-debates">Os Eixos de Debate estruturam as discussões em torno da ciência, tecnologia
                     e
