@@ -88,33 +88,37 @@
 
 @media (max-width: 428px) {
     .business-content {
-        border-radius: 2.5rem 2.5rem 0rem 0rem;
-        margin-top: -2rem;
+        border-radius: 0 0 2.5rem 2.5rem;
         position: relative;
     }
     .content-busuness-text {
         padding: 2rem 1rem;
     }
     .business-title {
-        font-size: 48px;
+        font-size: 1.5rem;
     }
-
+    .business-subtitle {
+        font-size: 2.25rem;
+    }
+    .business-text {
+        font-size: 1.25rem;
+    }
     .btn-origin-business {
-        width: 100%;
+        font-size: 1.25rem;
     }
 }
 
 @media (max-width: 414px) {
-    .business-subtitle {
-        font-size: 20px;
-    }
     .business-title {
-        font-size: 24px;
+        font-size: 1.5rem;
+    }
+    .business-subtitle {
+        font-size: 2.25rem;
     }
     .business-text {
-        font-size: 18px;
+        font-size: 1.25rem;
     }
     .btn-origin-business {
-        font-size: 18px;
+        font-size: 1.25rem;
     }
 }
