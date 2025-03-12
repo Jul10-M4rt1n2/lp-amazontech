@@ -81,9 +81,9 @@
         padding: 7rem 22rem 2rem 61rem;
     }
     .content-methodology {
-        padding: 30rem 80rem 1rem 5rem
+        padding: 30rem 80rem 1rem 5rem;
     }
- }
+}
 
 @media (max-width: 954px) {
     .bg-about-event {
@@ -94,7 +94,7 @@
         background-image: url("../../img/first-bg.svg");
         background-size: cover;
         background-repeat: no-repeat;
-        
+
         background-position: 0rem -16rem;
     }
     .second-column {
@@ -128,5 +128,22 @@
     }
     .text-methodology {
         font-size: 1.25rem;
+    }
+}
+@media (max-width: 390px) {
+    .content-event {
+        display: flex;
+        padding: 3.125rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .title-event{
+        margin: 0;
+    }
+    .text-event {
+        font-size: 1rem;
+        margin: 0;
     }
 }
