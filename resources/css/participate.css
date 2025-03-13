@@ -55,6 +55,7 @@
 
     .text-participe {
         font-size: 1.25rem;
+        line-height: 1.6rem;
     }
 
     .participate-content-image {
@@ -70,5 +71,6 @@
     .text-participe {
         font-size: 18px;
         line-height: 35px;
+        line-height: 1.6rem;
     }
 }

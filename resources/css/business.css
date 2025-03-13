@@ -9,7 +9,7 @@
     background-position: center;
 }
 
-.content-busuness-text {
+.content-business-text {
     padding: 145px 165px;
     gap: 2rem;
     width: 100%;
@@ -87,12 +87,18 @@
 }
 
 @media (max-width: 428px) {
-    .business-content {
-        border-radius: 0 0 2.5rem 2.5rem;
-        position: relative;
+    .img-background-business {
+        background-image: url("../../img/mundo-mobile.png");
+        height: 53vh;
     }
-    .content-busuness-text {
+    .business-content {
+        position: relative;
+        background: #0d3d53;
+    }
+    .content-business-text {
         padding: 2rem 1rem;
+        border-radius: 0 0 2.5rem 2.5rem;
+        background: #005d58;
     }
     .business-title {
         font-size: 1.5rem;
