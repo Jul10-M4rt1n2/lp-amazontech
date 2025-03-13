@@ -156,3 +156,9 @@ ul {
         margin-top: 10px;
     }
 }
+
+@media (max-width:390px) {
+    .bg-nav {
+        border-radius: 0rem 0rem 3.125rem 3.125rem;
+    }
+}
