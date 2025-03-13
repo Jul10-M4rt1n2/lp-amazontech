@@ -34,6 +34,20 @@
     line-height: 2rem;
 }
 
+@media (max-width: 850px){
+    .participate-content-text{
+        padding: 4.00394rem 2.66925rem;
+        gap: 1.81513rem;
+    }
+    .title-participe {
+        font-size: 18px;
+    }
+    .text-participe {
+        font-size: 12px;
+        line-height: 17.083px;
+    }
+}
+
 @media (max-width: 428px) {
     .participate-content {
         background-image: url("../../img/SOBRE-EVENTO.png");

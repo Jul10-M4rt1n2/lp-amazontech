@@ -84,6 +84,29 @@
         background-position: center;
         height: 55vh;
     }
+    .img-background-business {
+        height: auto;
+    }
+    .content-business-text {
+        padding: 3.87044rem 6rem;
+    }
+    .business-subtitle {
+        font-size: 16px;
+    }
+    .business-title {
+        font-size: 28px;
+    }
+    .business-text {
+        font-size: 12px;
+    }
+    .btn-origin-business {
+        width: 11.47788rem;
+        font-size: 12px;
+        padding: 0.64063rem 0.32031rem;
+        border-radius: 1.22788rem;
+        border: 0.854px solid #e66c27;
+        background: linear-gradient(180deg, #e67a34 0%, #db6929 100%);
+    }
 }
 
 @media (max-width: 428px) {

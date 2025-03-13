@@ -1,8 +1,8 @@
 <section class="business-content overflow-hidden" id="business">
     <div class="row">
-        <div class="img-background-business col-lg-4 col-md-12 order-2 order-md-1">
+        <div class="img-background-business col-lg-4 col-md-4 col-sm-12 order-2 order-sm-1">
         </div>
-        <div class="col-lg-8 col-md-12 order-1 order-md-2">
+        <div class="col-lg-8 col-md-8 col-sm-12 order-1 order-sm-2">
             <div class="content-business-text row flex-column justify-center align-items-center">
                 <h6 class="business-subtitle">REVISTA</h6>
                 <h2 class="business-title">Falando de Negócios</h2>
