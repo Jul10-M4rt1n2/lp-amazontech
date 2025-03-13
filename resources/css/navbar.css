@@ -87,12 +87,15 @@ ul {
 }
 
 
-@media (min-width: 800px) and (max-width: 900px) { 
-    .custom-nav .collapse {
-        overflow: hidden;
+@media (min-width: 800px) and (max-width: 900px) {
+    .logo-home {
+        margin: 0.5rem 2rem;
     }
-    .custom-btn {
-        display: none;
+    .btn-menu {
+        margin: 1rem 2rem;
+    }
+    .bg-nav {
+        padding: 0;
     }
     .btn-mobile { 
         margin: 2rem 0;
@@ -114,13 +117,46 @@ ul {
         text-decoration: none;
         transition: 0.3s;
     }
+    .custom-nav {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        padding: 0;
+    }
+    .custom-nav .collapse {
+        overflow: hidden;
+    }
+
+    .custom-listbar {
+        gap: 2rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        background-color: #006964;
+    }
+    .custom-listbar {
+        text-align: center;
+        background: #006964;
+    }
+    .custom-btn {
+        display: none;
+    }
+    .link-custom {
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .link-custom:hover {
+        color: #ffffff;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #ffffff;
+    }
 }
 
 
 @media (max-width: 768px) {
     .bg-nav {
         padding: 0;
-        position: relative;
     }
     .brand {
         margin: 0.5rem 0.5rem 0.5rem 1rem;
