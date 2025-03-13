@@ -86,6 +86,13 @@ ul {
     }
 }
 
+@media (min-width: 1366) and (max-width: 1599) {
+    .custom-listbar { 
+        gap: 1rem;
+    }
+}
+
+
 
 @media (min-width: 800px) and (max-width: 900px) {
     .logo-home {
