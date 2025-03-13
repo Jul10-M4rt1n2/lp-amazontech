@@ -85,7 +85,44 @@
     }
 }
 
-@media (max-width: 954px) {
+
+@media (min-width: 800px) and (max-width: 890px) { 
+    .first-column {
+        background-image: url("../../img/bg-tablet1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 45vh;
+    }
+    .content-event { 
+        padding: 5rem 4rem 1rem 25rem;
+    }
+    .title-event {
+        font-size: 1.125rem;
+    }
+    .text-event {
+        font-size: 0.875rem;
+        margin: 0 0 1.5rem;
+    }
+    .second-column {
+        background-image: url("../../img/bg-tablet2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 19%;
+        height: 45vh;
+    }
+    .content-methodology {
+        padding: 5rem 31rem 1rem 5rem;
+    }
+    .title-methodology {
+        font-size: 1.125rem;
+    }
+    .text-methodology {
+        font-size: 0.875rem;
+    }
+}
+
+
+@media (max-width: 764px) {
     .bg-about-event {
         height: 100%;
         /* background: #ffde16; */
