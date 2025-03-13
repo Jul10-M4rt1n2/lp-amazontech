@@ -40,7 +40,22 @@
     display: none;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 900px) {
+    .bg-nav {
+        padding: 0px 0px;
+    }
+    .bg-hero {
+        background-image: url("../../img/hero-tablet.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 54vh;
+    }
+    .hero-content {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
     .bg-hero {
         background-image: url("../../img/hero-mobile.png");
         background-size: cover;
