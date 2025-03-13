@@ -1,6 +1,6 @@
 <section class="debates-content overflow-hidden">
     <div class="container-debates row align-items-center">
-        <div class="col-lg-6 col-md-12 order-2 order-md-1">
+        <div class="col-lg-6 col-md-6 col-sm-12 order-2 order-md-1">
             <div class="cards-debates d-flex flex-column justify-content-center align-items-center">
                 <div class="card-item d-flex flex-column justify-content-center align-items-center"
                     style="background-color: #077473;">
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 col-md-12 order-1 order-md-2">
+        <div class="col-lg-6 col-md-6 col-sm-12 order-1 order-md-2">
             <div class="debates-contents d-flex flex-column align-lg-items-start">
                 <h2 class="title-debates">EIXOS DE DEBATES</h2>
                 <p class="text-debates">Os Eixos de Debate estruturam as discussões em torno da ciência, tecnologia

@@ -11,7 +11,7 @@
     color: #231f20;
     leading-trim: both;
     text-edge: cap;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -23,7 +23,7 @@
     color: #231f20;
     leading-trim: both;
     text-edge: cap;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -45,7 +45,7 @@
     gap: 2rem;
     flex-shrink: 0;
     padding: 2rem 2.5rem;
-    width:24rem;
+    width: 24rem;
     height: auto;
     border-radius: 2.5rem;
     border: 8px solid #231f20;
@@ -55,7 +55,7 @@
     color: #fff;
     leading-trim: both;
     text-edge: cap;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 900;
@@ -68,7 +68,7 @@
     text-align: center;
     leading-trim: both;
     text-edge: cap;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -89,6 +89,36 @@
 @media (max-width: 1114px) {
     .container-debates {
         gap: 8.25rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .debates-content {
+        padding: 0rem 4.25rem;
+    }
+    .container-debates {
+        gap: 0rem;
+    }
+    .card-item {
+        border: 3.417px solid #231f20;
+        border-radius: 1.06769rem;
+        flex-shrink: 0;
+        gap: 0.85419rem;
+        width: 10.25rem;
+        height: auto;
+        padding: 0.85419rem 1.06769rem;
+    }
+    .title-card-debates {
+        font-size: 14px;
+    }
+    .text-card-debates{
+        font-size: 10px;
+    }
+    .title-debates{
+        font-size: 18px;
+    }
+    .text-debates {
+        font-size: 12px;
     }
 }
 
@@ -132,7 +162,6 @@
 }
 
 @media (max-width: 414px) {
-    
     .title-debates {
         font-size: 1.5rem;
     }
