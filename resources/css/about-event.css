@@ -168,14 +168,24 @@
         font-size: 1.20rem;
     }
 }
+
+@media (min-width: 427px) and (max-width: 430px) {
+    .content-event { 
+        padding: 2.5rem 4rem 2.5rem 2rem !important;
+    }
+
+    .text-event {
+        margin: 0 0 25px !important;
+    }
+}
 @media (max-width: 390px) {
     .content-event {
         display: flex;
-        padding: 3.125rem 2rem;
+        padding: 3.125rem 1.8rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 2rem;
+        gap: 1rem;
     }
     .title-event{
         margin: 0;

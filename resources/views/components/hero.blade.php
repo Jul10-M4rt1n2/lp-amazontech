@@ -11,4 +11,4 @@
         </div>
     </div>
 </div>
-<img class="img-fluid img-hero-mobile" src="{{ asset('img/bg-header.png') }}" alt="">
+<img class="img-fluid img-hero-mobile" src="{{ asset('img/mobile-header.webp') }}" alt="">
