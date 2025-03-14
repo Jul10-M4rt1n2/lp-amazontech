@@ -86,9 +86,12 @@ ul {
     }
 }
 
-@media (min-width: 1366) and (max-width: 1599) {
+@media (min-width: 1519) and (max-width: 1599) {
     .custom-listbar { 
         gap: 1rem;
+    }
+    .link-custom {
+        font-size: 1.25rem;
     }
 }
 
