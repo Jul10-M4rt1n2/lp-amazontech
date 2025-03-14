@@ -144,10 +144,9 @@ ul {
         list-style: none;
         display: flex;
         background-color: #006964;
-    }
-    .custom-listbar {
         text-align: center;
         background: #006964;
+        border-radius: 0 0 3rem 3rem;
     }
     .custom-btn {
         display: none;
@@ -155,11 +154,6 @@ ul {
     .link-custom {
         color: #ffffff;
         font-size: 20px;
-    }
-    .link-custom:hover {
-        color: #ffffff;
-        padding-bottom: 0.5rem;
-        border-bottom: 2px solid #ffffff;
     }
 }
 
@@ -191,6 +185,12 @@ ul {
         list-style: none;
         display: flex;
         background-color: #006964;
+        border-radius: 0 0 3rem 3rem;
+    }
+    .link-custom:hover {
+        border-bottom: none;
+        color: #fff;
+        padding-bottom: 0;
     }
     .custom-listbar {
         text-align: center;
@@ -227,11 +227,6 @@ ul {
     .link-custom {
         color: #ffffff;
         font-size: 20px;
-    }
-    .link-custom:hover {
-        color: #ffffff;
-        padding-bottom: 0.5rem;
-        border-bottom: 2px solid #ffffff;
     }
 
     .link-custom {
