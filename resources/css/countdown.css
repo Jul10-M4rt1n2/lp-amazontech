@@ -50,6 +50,16 @@
     line-height: normal;
 }
 
+@media (min-width: 1519) and (max-width: 1599) {
+    .countdown-title { 
+        font-size: 1.875rem;
+    }
+    .countdown-number { 
+        font-size: 2rem;
+    }
+}
+
+
 @media (max-width: 834px) {
     .countdown-number {
         padding: 0.838rem 1.25703rem;
