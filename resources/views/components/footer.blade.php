@@ -14,8 +14,8 @@
                 <li><a class="link-item-footer" href="#business">Eixos De Debate</a></li>
                 <li><a class="link-item-footer" href="#participate">Quem Pode Participar</a></li>
                 <li><a class="link-item-footer" href="https://www.flickr.com/photos/sebraerr/albums/72177720323944909/">Fotos</a></li>
-                <li><a class="link-item-footer" href="#">Notícias</a></li>
-                <li><a class="link-item-footer" href="#"><strong>Traga Sua Marca!</strong></a></li>
+                <li><a class="link-item-footer" href="https://rr.agenciasebrae.com.br/">Notícias</a></li>
+                <li><a class="link-item-footer" href="#realization"><strong>Traga Sua Marca!</strong></a></li>
             </ul>
         </div>
         <div class="footer-group d-flex flex-column justify-content-center align-items-start gap-2">
