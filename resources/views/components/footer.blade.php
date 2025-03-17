@@ -13,7 +13,8 @@
                 <li><a class="link-item-footer" href="#methodology">Metodologia</a></li>
                 <li><a class="link-item-footer" href="#business">Eixos De Debate</a></li>
                 <li><a class="link-item-footer" href="#participate">Quem Pode Participar</a></li>
-                <li><a class="link-item-footer" href="https://www.flickr.com/photos/sebraerr/albums/72177720323944909/">Fotos</a></li>
+                <li><a class="link-item-footer"
+                        href="https://www.flickr.com/photos/sebraerr/albums/72177720323944909/">Fotos</a></li>
                 <li><a class="link-item-footer" href="https://rr.agenciasebrae.com.br/">Notícias</a></li>
                 <li><a class="link-item-footer" href="#realization"><strong>Traga Sua Marca!</strong></a></li>
             </ul>
@@ -25,16 +26,20 @@
             <a class="footer-email" href="mailto:amazontech@rr.sebrae.com.br">amazontech@rr.sebrae.com.br</a>
         </div>
     </div>
-    <div class="social d-flex justify-content-center justify-content-md-start align-items-center gap-2">
-        <a href="https://br.linkedin.com/company/sebraeroraima" target="_blank"><img class="img-fluid"
-                src="{{ asset('img/linkedin.svg') }}" alt=""></i></a>
-        <a href="http://instagram.com/sebrae.roraima" target="_blank"><img class="img-fluid"
-                src="{{ asset('img/insta.svg') }}" alt=""></i></a>
-        <a href="http://facebook.com/sebraeroraima" target="_blank"><img class="img-fluid"
-                src="{{ asset('img/Facebook.svg') }}" alt=""></i></a>
-        <a href="http://www.youtube.com/@sebrae.roraima" target="_blank"><img class="img-fluid"
-                src="{{ asset('img/Youtube.svg') }}" alt=""></i></a>
-        <a href="https://rr.agenciasebrae.com.br/" target="_blank"><img class="img-fluid"
-                src="{{ asset('img/globe.svg') }}" alt=""></i></a>
+    <div class="content-social d-flex flex-column justify-content-between align-items-start">
+        <div class="social d-flex justify-content-center align-items-center justify-content-md-start align-items-center gap-2 order-2 order-sm-1">
+            <a href="https://br.linkedin.com/company/sebraeroraima" target="_blank"><img class="img-fluid"
+                    src="{{ asset('img/linkedin.svg') }}" alt=""></i></a>
+            <a href="http://instagram.com/sebrae.roraima" target="_blank"><img class="img-fluid"
+                    src="{{ asset('img/insta.svg') }}" alt=""></i></a>
+            <a href="http://facebook.com/sebraeroraima" target="_blank"><img class="img-fluid"
+                    src="{{ asset('img/Facebook.svg') }}" alt=""></i></a>
+            <a href="http://www.youtube.com/@sebrae.roraima" target="_blank"><img class="img-fluid"
+                    src="{{ asset('img/Youtube.svg') }}" alt=""></i></a>
+            <a href="https://rr.agenciasebrae.com.br/" target="_blank"><img class="img-fluid"
+                    src="{{ asset('img/globe.svg') }}" alt=""></i></a>
+        </div>
+        <a class="portal-btn d-flex justify-content-center align-items-center order-1 order-sm-2"
+            href="https://sebrae.com.br/sites/PortalSebrae">Portal Sebrae</a>
     </div>
 </footer>
