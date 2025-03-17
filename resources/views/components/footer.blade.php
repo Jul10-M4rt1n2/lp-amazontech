@@ -40,6 +40,6 @@
                     src="{{ asset('img/globe.svg') }}" alt=""></i></a>
         </div>
         <a class="portal-btn d-flex justify-content-center align-items-center order-1 order-sm-2"
-            href="https://sebrae.com.br/sites/PortalSebrae">Portal Sebrae</a>
+            href="https://sebrae.com.br/sites/PortalSebrae" target="_blank">Portal Sebrae</a>
     </div>
 </footer>
