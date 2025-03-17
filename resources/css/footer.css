@@ -83,6 +83,13 @@
     text-transform: capitalize;
 }
 
+.portal-btn:hover {
+    border: 1px solid #1D66C3;
+    background: #1D66C3;
+
+    color: #FFF;
+}
+
 @media (max-width: 428px) {
     .footer-content {
         align-items: center !important;
